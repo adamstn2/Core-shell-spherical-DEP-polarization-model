@@ -11,7 +11,7 @@ Below are instructions for running the Fit_DEP_Spectrum_Multi_for_model:
 Comments on outputs of the MATLAB Code
 Outputs from "Optimization Plot Function" include the DEP spectrum plot discrete data points (open blue circles), the core-shell spherical DEP polarization model fit to the discrete data points (red curve), and the transient slope fit to the discrete data points (green line).
 
-Additionally, the 
+Additionally, the "Command Window" contains tables of data, which include defined parameters, fitting parameters, converged values, and calculated values. The defined parameters are constants such as permittivity of the vacuum, permittivity of the medium, cell radius, and membrane thickness. The fitted parameters are the permittivity of the cytoplasm, permittivity of the membrane, conductivity of the cytoplasm, conductivity of the membrane, and the linear scalar. The converged values are those reported in the manuscript figures, which include permittivity of the cytoplasm, permittivity of the membrane, conductivity of the cytoplasm, conductivity of the membrane, and an R^2. Lastly, the calculated values include the crossover frequency, membrane capacitance estimated from the crossover frequency, membrane capacitance estimated from permittivity, and the transient slope estimated from linear trendline. The values reported in the manuscript are the membrane capacitance estimated from XX and the transient slope. If you decide to run Fit_DEP_Spectrum_Multi_for_model on your own data make sure to update the cell radius.
 
 Descriptive file names for download in Step 1.
 
