@@ -14,8 +14,12 @@ Outputs from "Optimization Plot Function" include the DEP spectrum plot discrete
 Additionally, the "Command Window" contains tables of data, which include defined parameters, fitting parameters, converged values, and calculated values. The defined parameters are constants such as permittivity of the vacuum, permittivity of the medium, cell radius, and membrane thickness. The fitted parameters are the permittivity of the cytoplasm, permittivity of the membrane, conductivity of the cytoplasm, conductivity of the membrane, and the linear scalar. The converged values are those reported in the manuscript figures, which include permittivity of the cytoplasm, permittivity of the membrane, conductivity of the cytoplasm, conductivity of the membrane, and an R^2. Lastly, the calculated values include the crossover frequency, membrane capacitance estimated with the crossover frequency, membrane capacitance estimated with permittivity, and the transient slope estimated from linear trendline. The values reported in the manuscript are the membrane capacitance estimated with permittivity and the transient slope. If you decide to run Fit_DEP_Spectrum_Multi_for_model on your own data make sure to update the cell radius.
 
 # Descriptive file names for download in Step 1.
-1.depf.m 
+1.depf.m
+
 2.Fit_DEP_Spectrum_Multi_for_model_clean.m
+
 3.fminsearchbnd.m
+
 4.residual.m
+
 5.sample data.csv
