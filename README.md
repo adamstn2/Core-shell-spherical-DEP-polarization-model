@@ -3,7 +3,7 @@
 This MATLAB code repository presents an implementation of the core-shell spherical dielectrophoresis (DEP) polarization model for analyzing the electrical properties of biological cells. The oprimary focus is highlighting the role of the linear scalar (equivalent to the Clausius-Mossotti factor). The code utilizes the fminsearchbnd function in MATLAB for nonlinear fitting, adjusting parameters (ε_mem, σ_cyto, ε_cyto, and the linear scalar) to maximize the R-value and enhance the agreement between the model and experimental data.
 
 # Instructions for Running Fit_DEP_Spectrum_Multi_for_model:
-1. Download files numbered 1 - 6 (descriptive titles below) into a single folder.
+1. Download files numbered 1 - 5 (descriptive titles below) into a single folder.
 2. In MATLAB, open the folder containing the five downloaded files.
 3. Open the Fit_DEP_Spectrum_Multi_for_model in the MATLAB editor.
 4. Run the Fit_DEP_Spectrum_Multi_for_model in the MATLAB editor. When the "Select File to Open" window appears, select the Sample data file provided. Note: The sample date file must stay in the Microsoft Excel Comma Separated Values File format. You will see the "Optimization Plot Function" window working.
@@ -22,6 +22,18 @@ Additionally, the "Command Window" contains tables of data, which tabulated defi
 
 4.residual.m
 
-5.3DEP Sample Data.csv
+5.3DEP Sample Data_BM hMSCs.csv
 
-6.3DEP Sample Data With Notes.csv
+The file is 3DEP analyzer experimental data for bone marrow (BM) derived human mesenchymal stem cells (hMSCs). The following are details on how the data set is organized on the .csv file. 
+
+A1	Average cell radius (mm)			
+
+A2	Conductivity of DEP buffer solution (mS/cm)			
+
+A3	placeholder			
+
+A4	placeholder			
+
+A5 to A24	Frequency (Hz)			
+
+B5 to B24	Light Intensity (a.u., output from 3DEP analyzer)
